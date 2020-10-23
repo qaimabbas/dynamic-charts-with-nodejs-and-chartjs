@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://tanveer:tanveer@cluster0.jpspo.mongodb.net/<dbname>?retryWrites=true&w=majority', {useNewUrlParser: true,useUnifiedTopology: true }).then(() => console.log('MongoDB Connected'))
+mongoose.connect('db credentials', {useNewUrlParser: true,useUnifiedTopology: true }).then(() => console.log('MongoDB Connected'))
 .catch(err => console.log(err)); 
 
 var conn =mongoose.Collection;
